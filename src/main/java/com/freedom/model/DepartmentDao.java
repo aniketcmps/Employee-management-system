@@ -9,6 +9,9 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+/**
+ * DAO for Department table. Performs all the basic functions required. 
+ */
 
 @Repository
 @Transactional

@@ -6,11 +6,12 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.http.SessionCreationPolicy;
 
+/**
+ * Security Configuration for the project
+ */
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
-	/**
-	 * Security Configuration
-	 */
+	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http.csrf().disable().authorizeRequests()

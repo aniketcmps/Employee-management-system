@@ -1,4 +1,7 @@
 package com.freedom.util;
+/**
+ * Custom error class 
+ */
 
 public class CustomErrorType {
 	private String error;

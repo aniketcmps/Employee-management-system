@@ -16,11 +16,14 @@ import org.springframework.web.bind.annotation.RestController;
 import com.freedom.model.Department;
 import com.freedom.model.DepartmentDao;
 import com.freedom.util.CustomErrorType;
+/**
+ * Controller for Department table 
+ */
 
 @RestController
 @RequestMapping("/rest/department")
 public class DepartmentController {
-
+	
 	@Autowired
 	private DepartmentDao departmentDao;
 

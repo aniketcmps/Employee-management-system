@@ -16,11 +16,17 @@ import org.springframework.web.bind.annotation.RestController;
 import com.freedom.model.Employee;
 import com.freedom.model.EmployeeDao;
 import com.freedom.util.CustomErrorType;
+/**
+ * Controller for Employee table 
+ */
 
 @RestController
 @RequestMapping("/rest/employee")
 public class EmployeeController {
-
+	/**
+	 * Controller for Department table 
+	 */
+	
 	@Autowired
 	private EmployeeDao employeeDao;
 
