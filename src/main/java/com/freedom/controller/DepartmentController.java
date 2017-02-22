@@ -83,7 +83,8 @@ public class DepartmentController {
 	 * Create a Department 
 	 * This method creates and adds entry to department table 
 	 * access URL: http://localhost:8096/rest/department/create
-	 * RequestMethod=POST {"name":"HR" }
+	 * RequestMethod=POST 
+	 * {"name":"HR" }
 	 */
 	@RequestMapping(value = "/create", method = RequestMethod.POST)
 	public ResponseEntity<?> create(@RequestBody Department department) {
